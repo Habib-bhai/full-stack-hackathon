@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
-import About from "./pages/About"
+import About from "./Pages/About"
 import Competition from "./pages/Competition"
 import CompetitionDetails from "./pages/CompetitionDetails"
 import Contact from "./pages/Contact"
 import Footer from "../components/Footer"
+
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     </Routes>
     <Footer/>
     </>
-  )
+  );
 }
 
 export default App
