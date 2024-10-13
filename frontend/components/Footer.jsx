@@ -1,12 +1,8 @@
-import React from 'react'
-
 function Footer() {
   return (
-        <>
-        <div className='w-4'>
-            <img src="../public/hero-section-img.jpg" alt="" />
-        </div>
-        </>
+       <div>
+            <img src="../public/logo.png" alt="" className="w-10 h-10 rounded-2xl"/>
+       </div>
   )
 }
 
