@@ -1,10 +1,20 @@
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Competition from "./pages/Competition"
+import CompetitionDetails from "./pages/CompetitionDetails"
 
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-blue-400'>hello world</h1>
+    <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/Competition" element={<Competition/>}/>
+        <Route path="/Competition:competitionName" element={<CompetitionDetails/>}/>
+    </Routes>
     </>
   )
 }
