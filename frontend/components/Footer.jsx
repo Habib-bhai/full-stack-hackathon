@@ -1,12 +1,8 @@
-import React from 'react'
-
 function Footer() {
   return (
-        <>
-        <div className='w-4'>
-            <img src="../public/hero-section-img.jpg" alt="" />
-        </div>
-        </>
+       <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center">
+            {/* <img src="/logo.png" alt="" width={100} height={100} className="w-10 h-10 rounded-2xl"/> */}
+       </div>
   )
 }
 
